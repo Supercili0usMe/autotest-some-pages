@@ -13,3 +13,4 @@ class ProductPageLocators():
     ITEM_NAME = (By.CSS_SELECTOR, "div.product_main > h1")
     ADDED_NAME = (By.CSS_SELECTOR, "div.alertinner > strong")
     ADDED_PRICE = (By.CSS_SELECTOR, "div.alertinner > p > strong")
+    SUCCESS_MESSAGE = (By.CSS_SELECTOR, "#messages > div.alert-success")
